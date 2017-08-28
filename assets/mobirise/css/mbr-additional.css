@@ -2695,7 +2695,7 @@ body {
 .cid-qtBJtjHtwg {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/how-it-works-bg-1660x7158.jpg");
+  background-image: url("../../../assets/images/how-it-works-bg-1660x7155.jpg");
 }
 .cid-qtBJy5juEi {
   padding-top: 120px;
@@ -2705,43 +2705,74 @@ body {
 .cid-qtBJy5juEi .mbr-section-subtitle {
   color: #767676;
 }
-.cid-qtBKCEHFn9 {
+.cid-qtCGMeEWzC {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #547084;
 }
-.cid-qtBKCEHFn9 .pricing {
-  padding: 3.3rem;
+.cid-qtCGMeEWzC .list-group-item {
+  padding: .75rem 3.25rem;
+}
+.cid-qtCGMeEWzC .plan {
+  word-break: break-word;
+  position: relative;
+  max-width: 300px;
+  padding-right: 0;
+  padding-left: 0;
   color: #767676;
+}
+.cid-qtCGMeEWzC .plan .list-group-item {
+  position: relative;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+}
+.cid-qtCGMeEWzC .plan .list-group-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 2px;
+  content: "";
+  background-color: #eaeaea;
+}
+.cid-qtCGMeEWzC .plan .list-group-item:last-child::after {
+  display: none;
+}
+.cid-qtCGMeEWzC .plan.favorite {
   background-color: #fff;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
 }
-@media (max-width: 767px) {
-  .cid-qtBKCEHFn9 .pricing {
-    padding: 1.5rem;
-  }
+.cid-qtCGMeEWzC .plan-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.cid-qtBKCEHFn9 .plan-header,
-.cid-qtBKCEHFn9 .plan-body {
-  background-color: #fff;
-}
-.cid-qtBKCEHFn9 .plan-title {
-  margin-top: 1.4rem;
-}
-.cid-qtBKCEHFn9 .price-figure {
+.cid-qtCGMeEWzC .price-figure {
   font-weight: 700;
-  color: #232323;
+  color: #c1c1c1;
+}
+.cid-qtCGMeEWzC .price-value {
+  font-weight: 700;
+  vertical-align: top;
+  color: #c1c1c1;
 }
 @media (max-width: 550px) {
-  .cid-qtBKCEHFn9 .price-figure {
+  .cid-qtCGMeEWzC .price-figure {
     font-size: 4.25rem;
   }
 }
-.cid-qtBKCEHFn9 .price-value {
-  font-weight: 700;
-  vertical-align: top;
+.cid-qtCGMeEWzC LI {
+  color: #c1c1c1;
 }
-.cid-qtBKCEHFn9 hr {
-  margin: 2rem 0;
+.cid-qtCGMeEWzC .plan-title {
+  color: #ff7f9f;
+}
+.cid-qtCGMeEWzC SPAN {
+  color: #ffffff;
+}
+.cid-qtCGMeEWzC .price-term {
+  color: #cccccc;
 }
 .cid-qtBJAo8ifq {
   padding-top: 90px;
@@ -2836,7 +2867,7 @@ body {
 .cid-qtBSN5jjMa {
   padding-top: 120px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/how-it-works-bg-1660x7158.jpg");
+  background-image: url("../../../assets/images/how-it-works-bg-1660x7155.jpg");
 }
 .cid-qtBTxpRYz8 {
   padding-top: 90px;
@@ -3675,7 +3706,7 @@ body {
 .cid-qtBTYNJXK2 {
   padding-top: 120px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/how-it-works-bg-1660x7158.jpg");
+  background-image: url("../../../assets/images/how-it-works-bg-1660x7155.jpg");
 }
 .cid-qtBU0mOZJn {
   padding-top: 90px;
